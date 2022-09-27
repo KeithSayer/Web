@@ -36,3 +36,16 @@ h4 {
     padding: 1.5rem;
     background-color: darkviolet;
 }
+.row {
+    display:flex;
+}
+
+.leftcolumn {
+    flex:50%;
+    width: 33%;
+    align-items: right;
+}
+.rightcolumn {
+    flex:50%;
+    align-items: left;
+}
