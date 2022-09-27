@@ -10,7 +10,6 @@ h1,h2,h3,h4 {
 }
 
 p {
-    padding-inline-start: 15px;
     line-height: 150%;
 }
 
@@ -40,12 +39,15 @@ h4 {
     display:flex;
 }
 
-.leftcolumn {
+.column {
     flex:50%;
     width: 33%;
-    align-items: right;
 }
-.rightcolumn {
-    flex:50%;
-    align-items: left;
+.right {
+    align-content: left;
+    background-color: blue;
+}
+.left {
+    align-content: right;
+    background-color: red;
 }
