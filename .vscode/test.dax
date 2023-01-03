@@ -1,0 +1,11 @@
+IF(
+    RIGHT('Customer Table'[Disp #],3) ="000",
+    LEFT('Customer Table'[Disp #],LEN('Customer Table'[Disp #])-3),
+    'Customer Table'[Disp #]
+)
+
+IF(
+    RIGHT('Date'[Fiscal Year],3) ="000",
+    LEFT('Date'[Fiscal Year],LEN('Date'[Fiscal Year])-3),
+    'Date'[Fiscal Year]
+)
